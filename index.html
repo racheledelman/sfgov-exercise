@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style type="text/css">
+		.nav-bg {background:#9ab; padding:10px 0;}
+		nav img {display: inline-block; height: 50px;}
+		.promo p{margin:10px 0 0;}
+		.promo h2 {margin-top: 0;}
+		.promo img {width: 100%;}
+		body {background-color: #345264;}
+		footer {text-align: center; color: #fff}
+		.page-header {color: #fff;}
+		.search-prompts li {padding-bottom: 10px;}	
+		label {font-weight: 500; font-size: 30px;}
+
+		/* The container <div> - needed to position the dropdown content */
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		/* Dropdown Content (Hidden by Default) */
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		/* Change color of dropdown links on hover */
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		/* Show the dropdown menu on hover */
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		@media (min-width: 1200px) {
+			.container {
+				width: 970px;
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="nav-bg">
+	<div class="container">
+		<nav>
+			<a class="logo" href="#"><img alt="311 Logo" src="https://www.sf311.org/image/company_logo?img_id=11346&t=1484334143417"></a>
+			<div class="pull-right">
+				<button class="btn btn-default" type="submit">My Account</button>
+				<div class="dropdown">
+					<button class="btn btn-default">Menu <span class="caret"></button>
+					<div class="dropdown-content">
+						<a href="#">About 311</a>
+						<a href="#">Help</a>
+						<a href="#">List of City Services</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+</div>
+</div>
+	<div class="container">
+
+		<div class="page-header">
+			<h1>Find information and report problems to the City of San Francisco</h1>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+
+				<form>
+					<div class="form-group">
+						<label for="exampleInputSearch">Search</span></label>
+						<input type="search" class="form-control" id="exampleInputSearch" placeholder="How can we help you?">
+					</div>
+					<button type="submit" class="btn btn-primary">Search</button>
+					<div class="row search-prompts">
+						<div class="col-md-6">
+							<h2>Top Requested Services</h2>
+							<ul class="list-unstyled">
+								<li><a href="#">Street or Sidewalk Cleaning</a></li>
+								<li><a href="#">Graffiti</a></li>
+								<li><a href="#">Streetlight Repair</a></li>
+								<li><button type="button" class="btn btn-default btn-sm">See more</button></li>
+							</ul>	
+						</div>
+						<div class="col-md-6">
+							<h2>Top Requested Info</h2>
+							<ul class="list-unstyled">
+								<li><a href="#">Birth Certificates</a></li>
+								<li><a href="#">City Employee Phone Book Directory</a></li>
+								<li><a href="#">City Observed Holidays</a></li>
+								<li><button type="button" class="btn btn-default btn-sm">See more</button></li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="panel panel-default promo">
+				<div class="panel-body">	
+					<h2>Did you know?</h2>
+					<img src="https://www.sf311.org/documents/10184/11566/Adopt+a+Drain+%28PUC%29/1944cc6f-24da-47da-b841-d8817d16be05?version=1.1">
+					<p>Adopt a Drain Today at adoptadrain.sfwater.org.</p>
+				</div>
+			</div>
+
+			<footer>
+				<a href="#">
+				<img src="https://www.sf311.org/SF311_Portal-theme/images/custom/footerseal.png">
+				</a>
+				<p>City and County of San Francisco</p>
+			</footer>
+
+		</div>
+	</body>
+	</html>
